@@ -6,5 +6,17 @@ export default defineNuxtConfig({
   alias:{
     '@':resolve(__dirname, '/')
     // the alias allows one to import files using a shorter import statement eg. @/components/compo.vue
-  }
+  },
+  css:[
+    '~/assets/main.css',
+    'bootstrap/dist/css/bootstrap.min.css'
+  ],
+  build:{
+    transpile:[
+      'bootstrap'
+    ]
+  },
+  plugins: [
+    { src: '~/plugins/bootstrap.js', mode: 'client' }
+  ]
 })
