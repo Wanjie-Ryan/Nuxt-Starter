@@ -1,7 +1,9 @@
 <template>
   <div>
+    <!-- NuxtRouteAnnouncer is used to improce screen readability -->
     <NuxtRouteAnnouncer />
-    <!-- <NuxtWelcome /> -->
-     <h3 class="bg-primary">Hey</h3>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
