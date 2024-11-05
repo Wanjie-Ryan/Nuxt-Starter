@@ -72,4 +72,5 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Middleware Directory
+-- Nuxt provides a customizable route middleware you can use throughout the app that extracts code that you want to run before navigating to a particular route.
