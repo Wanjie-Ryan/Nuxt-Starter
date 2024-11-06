@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '~/assets/main.css',
     'bootstrap/dist/css/bootstrap.min.css'
   ],
+  modules:['@pinia/nuxt'],
   build:{
     transpile:[
       'bootstrap'
